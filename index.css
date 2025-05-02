@@ -1,3 +1,64 @@
 body {
   font-family: "Inter", sans-serif;
+  background: #000000;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+header {
+  padding-bottom: 10px;
+  box-shadow: 0 0 6px #fff;
+  padding: 20px 0;
+}
+
+.title {
+  color: #fca311;
+  font-size: 2.8rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin: 10px 0 0 0;
+}
+
+main {
+  margin: 20px 0;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.orange {
+  color: #fca311;
+}
+
+.points-title {
+  color: #fca311;
+}
+
+.points {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 12px 0 22px;
+}
+
+.button {
+  width: 300px;
+  margin: 10px 20px 10px 0;
+  padding: 20px 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fca311;
+  background-color: unset;
+  border: 3px solid #fca311;
+}
+
+.button:hover {
+  background-color: #fca311;
+  cursor: pointer;
+  color: #000;
 }

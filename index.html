@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A focused, minimalist app to track how many study blocks you complete per day — and how intense they are."
+    />
     <title>Study Logger</title>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="index.css" />
@@ -19,7 +23,22 @@
       <p class="subtitle">Mastery is built one session at a time.</p>
     </header>
     <main>
-      <h2>Total Points Today</h2>
+      <section class="info">
+        <p>
+          <span class="orange">Study Logger</span> helps you track daily
+          learning consistency using simple point-based scoring. Sessions are
+          scored as +1 (Light Session ~ 15-30min), +2 (Moderate Session ~
+          30-60min), or +3 (Deep Session ~ 60-90min+), allowing you to visually
+          track discipline and effort over time.
+        </p>
+      </section>
+      <section class="progress">
+        <h2 class="points-title">Total Points Today</h2>
+        <p class="points" id="points-el" aria-live="polite">0</p>
+        <button type="button" class="button plus-one">Light Session</button>
+        <button type="button" class="button plus-two">Moderate Session</button>
+        <button type="button" class="button plus-three">Deep Work</button>
+      </section>
     </main>
     <script src="index.js"></script>
   </body>
