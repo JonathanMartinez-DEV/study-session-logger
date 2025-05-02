@@ -35,9 +35,19 @@
       <section class="progress">
         <h2 class="points-title">Total Points Today</h2>
         <p class="points" id="points-el" aria-live="polite">0</p>
-        <button type="button" class="button plus-one">Light Session</button>
-        <button type="button" class="button plus-two">Moderate Session</button>
-        <button type="button" class="button plus-three">Deep Work</button>
+        <button type="button" class="button plus-one" onclick="plusOnePoint()">
+          Light Session
+        </button>
+        <button type="button" class="button plus-two" onclick="plusTwoPoints()">
+          Moderate Session
+        </button>
+        <button
+          type="button"
+          class="button plus-three"
+          onclick="plusThreePoints()"
+        >
+          Deep Work
+        </button>
       </section>
     </main>
     <script src="index.js"></script>
